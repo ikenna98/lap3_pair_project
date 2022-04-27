@@ -1,8 +1,9 @@
-import './App.css';
+import { Github } from "./pages";
 
 function App() {
   return (
     <div id="App">
+      < Github />
     </div>
   );
 }
