@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './style.css'
 
 function SearchForm({ getResult }) {
 
@@ -15,8 +16,8 @@ function SearchForm({ getResult }) {
   }
   return (
     <form onSubmit={handleSubmit} >
-        <input type="text" onChange={updateInput} placeholder='Enter GitHub Username' />
-        <input type="submit" style={{cursor:'pointer'}} value="Search" />
+       <input className='type-box'  type="text" onChange={updateInput} placeholder='Enter GitHub Username' />
+        <input className='input-btn' type="submit" style={{cursor:'pointer'}} value="Search" />
     </form>
     )
 }

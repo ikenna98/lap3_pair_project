@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+.result-container{
+width: 20%;
+height: 100px;
+margin: 2rem auto;
+font-family: 'Cairo', sans-serif;
+text-align: center;
+font-size: 1rem;
+
+}
+
+.list{
+margin: 6rem 0; 
+
+}
+span{
+    font-size: 1.5rem;
+}
